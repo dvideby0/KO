@@ -1,0 +1,180 @@
+body{
+    font-family: verdana;
+}
+
+/* Nav Bar */
+
+.navbar .navbar-inner{
+    border: none;
+    padding-top: 2px;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.navbar .nav>li>a{
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.navbar .nav>li>a:active,  .navbar .nav>li>a:hover{
+    text-decoration: none;
+    text-shadow: none;
+    border-top: solid 2px #bfd730;
+    margin-top: -2px;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-collapse .nav>li>a{
+    color: #ffffff !important;
+}
+
+.nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:active{
+    color: #ffffff !important;
+}
+
+
+/* Banner */
+
+.event-title{
+    color: #ffffff;
+    text-shadow: 3px #222222;
+    font-family: PraxisComLight;
+
+}
+
+.event-title:first-of-type{
+    margin-top: 150px;
+}
+
+.banner-row{
+    padding-bottom: 20px;
+    background: url(../img/headerBckgrnd.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+}
+
+/* Countdown & Social */
+
+.countdown-title{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    padding: 25px 0 20px 0;
+    background-color: #7d9aaa;
+    color: #002a37;
+    text-align: center;
+}
+.countdown-title div p{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.countdown-title div p:first-of-type{
+    font-size: 1.5em;
+}
+
+.counter{
+    font-size: 2.5em !important;
+}
+
+.social-icon{
+    height: 60px;
+}
+
+/* About Section */
+
+.about-row{
+    color: #002a37;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+}
+
+.about-title{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.about-icons{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Strategy Section */
+
+.strategy-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url(../img/strategy-background.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+    color: #ffffff;
+}
+
+.strategy-title{
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+/* Motivation Section */
+
+.motivation-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+/* Registration Section */
+
+.registration-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #559cb5;
+
+}
+
+/* Map Section */
+
+.map-row{
+
+}
+
+/* Social Section */
+
+.social-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/* Media Section */
+
+.media-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: url(../img/strategy-background.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+    color: #ffffff;
+}
+
+/* Footer Section */
+
+.footer-row{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
