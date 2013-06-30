@@ -20,7 +20,9 @@ body{
     text-shadow: none;
 }
 
-.navbar .nav>li>a:active,  .navbar .nav>li>a:hover{
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus, .navbar .nav>li>a .active,  .navbar .nav>li>a:hover{
+    background-color: transparent;
+    background-image: none;
     text-decoration: none;
     text-shadow: none;
     border-top: solid 2px #bfd730;
