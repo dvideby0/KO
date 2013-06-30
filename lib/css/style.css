@@ -150,16 +150,18 @@ body{
     color: #ffffff;
 }
 
-.registration-row form{
-    margin-top: 40px;
+.registration-row2{
+    padding-bottom: 40px;
+    background-color: #559cb5;
+    color: #ffffff;
 }
 
-.registration-row form input, .registration-row form button{
+.registration-row2 form input, .registration-row form button{
     border-radius: 0;
     border: none;
 }
 
-.registration-row .about-title{
+.registration-row .about-title, .registration-row2 .about-title{
     color: #002a37;
 }
 
@@ -196,4 +198,18 @@ body{
     padding-bottom: 40px;
     font-weight: bold;
     text-align: center;
+}
+
+/* Top Button */
+
+.top-button{
+    display: none;
+    padding: 5px;
+    background-color: #222222;
+    opacity: .5;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 10px;
+    z-index: 150;
 }
