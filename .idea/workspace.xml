@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372615399606" ignored="false" />
     <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372614273286" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372565637805" ignored="false" />
-    <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372581237337" ignored="false" />
+    <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="300" selection-end="300" vertical-scroll-proportion="0.24657534">
+            <state line="12" column="68" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="11" selection-start="461" selection-end="461" vertical-scroll-proportion="0.84246576">
               <folding />
             </state>
           </provider>
@@ -65,10 +74,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/js/jquery.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/js/app.js" />
         <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -283,13 +292,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="50" selection-start="3095" selection-end="3095" vertical-scroll-proportion="0.0">
@@ -306,7 +308,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="300" selection-end="300" vertical-scroll-proportion="0.24657534">
+        <state line="12" column="68" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="11" selection-start="461" selection-end="461" vertical-scroll-proportion="0.84246576">
           <folding />
         </state>
       </provider>
