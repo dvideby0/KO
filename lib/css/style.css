@@ -104,6 +104,7 @@ body{
 .about-title{
     font-size: 1.7em;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .about-icons{
@@ -124,9 +125,14 @@ body{
     color: #ffffff;
 }
 
-.strategy-title{
-    font-size: 1.7em;
-    font-weight: bold;
+.strategy-row2{
+    padding-bottom: 40px;
+    background: url(../img/strategy-background.png) no-repeat center center fixed;
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+    color: #ffffff;
 }
 
 /* Motivation Section */
