@@ -67,7 +67,9 @@
         padding-right: 5%;
     }
 
-    .row-fluid:not(:first-of-type){ background-image:none}
+    .row-fluid{
+        background-image:none !important;
+    }
 
     .row-fluid:nth-child(odd):not(.registration-row){
         background-color: #ffffff;
@@ -75,6 +77,10 @@
 
     .row-fluid:nth-child(even):not(.countdown-title, .motivation-videos-row){
         background-color: #7d9aaa;
+    }
+
+    .banner-row{
+        background-color: #004253 !important;
     }
 
     .strategy-row, .media-row{

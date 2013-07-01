@@ -5,7 +5,7 @@
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372701625860" ignored="false" />
-    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372703309853" ignored="false" />
+    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372703716015" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372651220128" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372655002193" ignored="false" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="155.0">
+            <state line="20" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -40,7 +40,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="29" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.7380608">
+            <state line="70" column="40" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.5643994">
               <folding />
             </state>
           </provider>
@@ -317,14 +317,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="155.0">
+        <state line="20" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="29" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.7380608">
+        <state line="70" column="40" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.5643994">
           <folding />
         </state>
       </provider>
