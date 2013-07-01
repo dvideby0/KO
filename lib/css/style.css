@@ -125,16 +125,6 @@ body{
     color: #ffffff;
 }
 
-.strategy-row2{
-    padding-bottom: 40px;
-    background: url(../img/strategy-background.png) no-repeat center center fixed;
-    -webkit-background-size: cover; /*for webKit*/
-    -moz-background-size: cover; /*Mozilla*/
-    -o-background-size: cover; /*opera*/
-    background-size: cover; /*generic*/
-    color: #ffffff;
-}
-
 /* Motivation Section */
 
 .motivation-row{

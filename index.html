@@ -9,6 +9,7 @@
     </style>
     <link rel="stylesheet" href="lib/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="lib/css/fonts.css">
+    <link rel="stylesheet" href="lib/css/jquery.countdown.css">
     <link rel="stylesheet" href="lib/css/style.css"> <!-- This is the primary stylesheet for the site -->
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -55,7 +56,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
     <div class="span4 offset1">
         <p>Countdown To</p>
         <p>The Main Event</p>
-        <p class="counter">00:00:00</p> <!-- Countdown Timer -->
+        <div id="countdown"></div> <!-- Countdown Timer -->
     </div>
     <div class="span2">
         <a id="register-btn" href="#register"><img src="lib/img/registerimage.png"></a> <!-- Register Button -->
@@ -78,13 +79,19 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 
 <div id="about" class="row-fluid about-row">
     <div class="span5 offset2">
+
+        <!-- Begin PWN The Future Section -->
         <p class="about-title">PWN The Future</p>
         <p>What is the KnockOUT? It's when fearless contenders power through one sleepless night to unleash limitless potential for credit unions everywhere.</p>
         <p>Our 2nd annual 24-hour, no holds barred, Red Bull fueled innovation free-for-all takes place at PSCU's headquarters in St. Petersburg, Florida, September 26-27. From noon on Thursday to noon on Friday, bleary-eyed teams of five from across the country collaborate with each other and industry experts to pwn the future of payments.</p>
         <p>Get your team together and get ready. It ain't gonna be easy.</p>
         <iframe width="100%" height="315" src="//www.youtube.com/embed/LADm1hhxjkI?rel=0" frameborder="0" allowfullscreen></iframe>
+        <!-- End PWN The Future Section -->
+
     </div>
     <div class="span3 offset1">
+
+        <!-- Begin Prizes Section -->
         <p class="about-title">Win Big</p>
         <p>Big ideas can lead to big returns, and the KnockOut's no exception.Our judges will choose three finalists. PSCU and participant credit union employees will vote to rank our champions. Winning team members will each receive the following:
             <ul style="list-style-type: none; font-size: .9em; font-weight: bold">
@@ -96,6 +103,8 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
         <br />
         Last year, Team Pineapple was our stand-out collaboration king. They openly shared ideas, helped other teams, and had a true credit union co-op spirit. To honor their spirit, we are giving away fantastic Pineapple Prizes to teams who are open, helpful, and collaborative.</p>
         <p>There will also be great swag and giveaways throughout the night, so everyone goes home a winner.</p>
+        <!-- End Prizes Section -->
+
     </div>
 </div>
 <!-- End About Section -->
@@ -323,6 +332,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 <!-- Scripts -->
 <script type="text/javascript" src="lib/js/jquery.js"></script>
 <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/js/jquery.countdown.js"></script>
 <script type="text/javascript" src="lib/js/app.js"></script>
 </body>
 </html>
