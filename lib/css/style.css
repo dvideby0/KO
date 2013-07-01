@@ -1,3 +1,71 @@
+/* Globals and overrides */
+
+@media (max-width: 978px){
+    .container {
+        padding:0;
+        margin:0;
+    }
+
+    body {
+        padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+    .row-fluid{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .map-row{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+        width: 70%;
+        height: 40px !important;
+    }
+}
+
+@media (max-width: 480px){
+    .container {
+        padding:0;
+        margin:0;
+    }
+
+    body {
+        padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom:0;
+    }
+
+    .row-fluid{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .map-row{
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"]{
+        width: 100%;
+        height: 40px !important;
+    }
+}
+
+
 body{
     font-family: verdana;
 }
