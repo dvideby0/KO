@@ -86,6 +86,10 @@ body{
     font-family: verdana;
 }
 
+.square-btn{
+    border-radius: 0px;
+}
+
 /* Nav Bar */
 
 .navbar .navbar-inner{
