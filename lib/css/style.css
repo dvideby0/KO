@@ -17,8 +17,8 @@
     }
     .row-fluid{
         width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 4%;
+        padding-right: 6%;
     }
 
     .map-row{
@@ -38,6 +38,11 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .spacer-image{
+        display: none;
+    }
+
 }
 
 @media (max-width: 480px){
@@ -62,6 +67,20 @@
         padding-right: 5%;
     }
 
+    .row-fluid:not(:first-of-type){ background-image:none}
+
+    .row-fluid:nth-child(odd):not(.registration-row){
+        background-color: #ffffff;
+    }
+
+    .row-fluid:nth-child(even):not(.countdown-title, .motivation-videos-row){
+        background-color: #7d9aaa;
+    }
+
+    .strategy-row, .media-row{
+        background-color: #0064a4 !important;
+    }
+
     .map-row{
         width: 100% !important;
         padding: 0 !important;
@@ -79,6 +98,10 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .spacer-image{
+        display: none;
+    }
 }
 
 
@@ -87,7 +110,7 @@ body{
 }
 
 .square-btn{
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 /* Nav Bar */
@@ -222,6 +245,12 @@ body{
 
 .motivation-videos-row{
     padding-bottom: 40px;
+}
+
+.spacer-image{
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Registration Section */
