@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'PraxisComBold';
-    src: url('fonts/praxiscom-bold.eot');
-    src: url('fonts/praxiscom-bold.eot') format('embedded-opentype'),
-    url('fonts/praxiscom-bold.woff') format('woff'),
-    url('fonts/praxiscom-bold.ttf') format('truetype'),
-    url('fonts/praxiscom-bold.svg#PraxisComBold') format('svg');
-}
-
-@font-face {
     font-family: 'PraxisComLight';
     src: url('fonts/praxiscom-light.eot');
     src: url('fonts/praxiscom-light.eot') format('embedded-opentype'),
