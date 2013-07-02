@@ -6,14 +6,13 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
-    <style>
-    </style>
     <link rel="stylesheet" href="lib/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="lib/css/fonts.css">
     <link rel="stylesheet" href="lib/css/jquery.countdown.css">
     <link rel="stylesheet" href="lib/css/style.css"> <!-- This is the primary stylesheet for the site -->
     <!--[if lt IE 9]>
     <link rel="stylesheet" type="text/css" href="lib/css/ie.css" />
+    <script type="text/javascript" src="lib/js/ie.js"></script>
     <![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -57,7 +56,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 <!-- This is the beginning of the Countdown section just below the banner -->
 
 <div class="row-fluid countdown-title">
-    <div class="span4 offset1">
+    <div id="timer-section" class="span4 offset1">
         <p>Countdown To</p>
         <p>The Main Event</p>
         <div id="countdown"></div> <!-- Countdown Timer -->
