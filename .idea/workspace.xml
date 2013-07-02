@@ -4,7 +4,7 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372792078159" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372793799241" ignored="false" />
     <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372791764368" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372651220128" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="305" column="72" selection-start="15433" selection-end="15433" vertical-scroll-proportion="0.3478261">
+            <state line="298" column="20" selection-start="15037" selection-end="15037" vertical-scroll-proportion="0.2353823">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="18" selection-start="959" selection-end="959" vertical-scroll-proportion="-3.5">
+            <state line="105" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-22.5">
               <folding />
             </state>
           </provider>
@@ -330,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/ie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="160" selection-start="266" selection-end="266" vertical-scroll-proportion="0.041841004">
@@ -353,16 +346,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="18" selection-start="959" selection-end="959" vertical-scroll-proportion="-3.5">
+        <state line="105" column="5" selection-start="2044" selection-end="2044" vertical-scroll-proportion="-22.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="305" column="72" selection-start="15433" selection-end="15433" vertical-scroll-proportion="0.3478261">
+        <state line="298" column="20" selection-start="15037" selection-end="15037" vertical-scroll-proportion="0.2353823">
           <folding />
         </state>
       </provider>
