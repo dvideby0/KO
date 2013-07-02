@@ -1,0 +1,17 @@
+.banner-row{
+    padding-bottom: 20px;
+    background: url(../img/headerBckgrnd.png);
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+}
+
+.media-row, .strategy-row{
+    background: url(../img/strategy-background.png);
+    -webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+    color: #ffffff;
+}

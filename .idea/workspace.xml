@@ -4,12 +4,13 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372717791660" ignored="false" />
-    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372780857659" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372786914055" ignored="false" />
+    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372785915234" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372651220128" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372781433237" ignored="false" />
     <file path="/fonts.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372780871448" ignored="false" />
+    <file path="/ie.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372787058515" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="65" selection-start="2136" selection-end="2141" vertical-scroll-proportion="-0.6">
+            <state line="15" column="57" selection-start="622" selection-end="622" vertical-scroll-proportion="-4.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ie.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/ie.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="1" selection-start="0" selection-end="544" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,19 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.countdown.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/css/jquery.countdown.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="12" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.760274">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="21" selection-start="5988" selection-end="5992" vertical-scroll-proportion="-15.615385">
+            <state line="251" column="19" selection-start="4449" selection-end="4724" vertical-scroll-proportion="-1.1273516">
               <folding />
             </state>
           </provider>
@@ -96,10 +97,11 @@
         <option value="$PROJECT_DIR$/lib/js/jquery.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/lib/css/fonts.css" />
         <option value="$PROJECT_DIR$/lib/css/jquery.countdown.css" />
+        <option value="$PROJECT_DIR$/lib/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/css/ie.css" />
       </list>
     </option>
   </component>
@@ -328,9 +330,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/css/jquery.countdown.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="65" selection-start="2136" selection-end="2141" vertical-scroll-proportion="-0.6">
+        <state line="62" column="12" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.760274">
           <folding />
         </state>
       </provider>
@@ -342,16 +344,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="21" selection-start="5988" selection-end="5992" vertical-scroll-proportion="-15.615385">
+        <state line="15" column="57" selection-start="622" selection-end="622" vertical-scroll-proportion="-4.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/jquery.countdown.css">
+    <entry file="file://$PROJECT_DIR$/lib/css/ie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.760274">
+        <state line="16" column="1" selection-start="0" selection-end="544" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="19" selection-start="4449" selection-end="4724" vertical-scroll-proportion="-1.1273516">
           <folding />
         </state>
       </provider>
