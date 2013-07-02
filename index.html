@@ -289,13 +289,28 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 <!-- Begin Social Media Section -->
 
 <div id="social" class="row-fluid social-row">
-    <div class="span5 offset1">
-        <p class="about-title">Follow The Action</p>
-        <p>This is an 8 coloumn block. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus lacus, tempus vel consectetur id, imperdiet id lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus lacus, tempus vel consectetur id, imperdiet id </p>
-    </div>
     <div class="span4 offset1">
+        <p class="about-title">Follow The Action</p>
+        <a class="twitter-timeline" href="https://twitter.com/search?q=%23PSCUKnockOut" data-widget-id="352132559641137152">Tweets about "#PSCUKnockOut"</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class="span4" style="margin-top: 40px; margin-bottom: 40px">
+        <script data-app-id="hyB2pTvrL36Y50py8EWj6A"
+                src="https://assets.yammer.com/platform/yam.js"></script>
+        <script>
+            yam.connect.embedFeed(
+                    { container: '#embedded-feed'
+                        , network: 'pscuknockout' // network permalink (see below)
+                    });
+        </script>
+        <div id="embedded-feed" style="max-height: 600px; overflow: auto"></div>
+    </div>
+    <div class="span1 offset1">
         <p class="about-title">Links</p>
-        <p>This is an 8 coloumn block. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus lacus, tempus vel consectetur id, imperdiet id lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas purus lacus, tempus vel consectetur id, imperdiet id </p>
+        <div class="link-images">
+            <img src="lib/img/google_plus.png">
+            <img src="lib/img/facebook.png">
+        </div>
     </div>
 </div>
 <!-- End Social Media Section -->

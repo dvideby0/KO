@@ -4,8 +4,8 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372788545073" ignored="false" />
-    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372785915234" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372792078159" ignored="false" />
+    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372791764368" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372651220128" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372781433237" ignored="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="52" selection-start="7626" selection-end="7626" vertical-scroll-proportion="0.06746627">
+            <state line="305" column="72" selection-start="15433" selection-end="15433" vertical-scroll-proportion="0.3478261">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="19" selection-start="4449" selection-end="4724" vertical-scroll-proportion="29.961538">
+            <state line="52" column="18" selection-start="959" selection-end="959" vertical-scroll-proportion="-3.5">
               <folding />
             </state>
           </provider>
@@ -91,9 +91,9 @@
         <option value="$PROJECT_DIR$/lib/js/app.js" />
         <option value="$PROJECT_DIR$/lib/css/fonts.css" />
         <option value="$PROJECT_DIR$/lib/css/jquery.countdown.css" />
-        <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/lib/css/ie.css" />
         <option value="$PROJECT_DIR$/lib/js/ie.js" />
+        <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -337,13 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="19" selection-start="4449" selection-end="4724" vertical-scroll-proportion="29.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/ie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="160" selection-start="266" selection-end="266" vertical-scroll-proportion="0.041841004">
@@ -360,9 +353,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="18" selection-start="959" selection-end="959" vertical-scroll-proportion="-3.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="52" selection-start="7626" selection-end="7626" vertical-scroll-proportion="0.06746627">
+        <state line="305" column="72" selection-start="15433" selection-end="15433" vertical-scroll-proportion="0.3478261">
           <folding />
         </state>
       </provider>
