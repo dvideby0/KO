@@ -4,7 +4,7 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372809189875" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372810846684" ignored="false" />
     <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372791764368" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372651220128" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
@@ -34,7 +34,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="55" selection-start="14211" selection-end="14211" vertical-scroll-proportion="0.95671">
+            <state line="345" column="54" selection-start="17362" selection-end="17362" vertical-scroll-proportion="0.48051947">
               <folding />
             </state>
           </provider>
@@ -357,7 +357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="55" selection-start="14211" selection-end="14211" vertical-scroll-proportion="0.95671">
+        <state line="345" column="54" selection-start="17362" selection-end="17362" vertical-scroll-proportion="0.48051947">
           <folding />
         </state>
       </provider>
