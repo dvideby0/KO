@@ -269,7 +269,7 @@ body{
     color: #ffffff;
 }
 
-.registration-row form input, .registration-row form button{
+.registration-row form input, .registration-row form button, .registration-row form textarea{
     border-radius: 0;
     border: none;
 }
