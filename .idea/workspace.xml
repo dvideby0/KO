@@ -5,8 +5,8 @@
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372829732076" ignored="false" />
-    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372828713364" ignored="false" />
-    <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372829687503" ignored="false" />
+    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372830139212" ignored="false" />
+    <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372830019381" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372781433237" ignored="false" />
     <file path="/fonts.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372780871448" ignored="false" />
@@ -31,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08658009">
+            <state line="229" column="64" selection-start="12107" selection-end="12107" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -52,16 +52,16 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="33" selection-start="1545" selection-end="1551" vertical-scroll-proportion="0.0">
+            <state line="279" column="0" selection-start="5168" selection-end="5168" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="8" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
+            <state line="59" column="40" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.8767123">
               <folding />
             </state>
           </provider>
@@ -92,9 +92,9 @@
         <option value="$PROJECT_DIR$/lib/css/jquery.countdown.css" />
         <option value="$PROJECT_DIR$/lib/css/ie.css" />
         <option value="$PROJECT_DIR$/lib/js/ie.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/css/style.css" />
         <option value="$PROJECT_DIR$/lib/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -341,23 +341,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="64" selection-start="12107" selection-end="12107" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="33" selection-start="1545" selection-end="1551" vertical-scroll-proportion="0.0">
+        <state line="279" column="0" selection-start="5168" selection-end="5168" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="8" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.08658009">
+        <state line="59" column="40" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.8767123">
           <folding />
         </state>
       </provider>
