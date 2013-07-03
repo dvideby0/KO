@@ -269,18 +269,12 @@ body{
     color: #ffffff;
 }
 
-.registration-row2{
-    padding-bottom: 40px;
-    background-color: #559cb5;
-    color: #ffffff;
-}
-
-.registration-row2 form input, .registration-row form button{
+.registration-row form input, .registration-row form button{
     border-radius: 0;
     border: none;
 }
 
-.registration-row .about-title, .registration-row2 .about-title{
+.registration-row .about-title{
     color: #002a37;
 }
 
