@@ -309,6 +309,9 @@ body{
     color: #002a37;
 }
 
+.help-block, .control-label{
+    color: #ffffff !important;
+}
 
 /* Map Section */
 
