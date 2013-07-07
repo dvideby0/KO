@@ -4,14 +4,15 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373061672782" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373162196179" ignored="false" />
     <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373058651454" ignored="false" />
-    <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372846004275" ignored="false" />
+    <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373161276451" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372781433237" ignored="false" />
     <file path="/fonts.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372780871448" ignored="false" />
     <file path="/ie.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372787595409" ignored="false" />
     <file path="/ie.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372787923427" ignored="false" />
+    <file path="/ko.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373171735699" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="262" column="151" selection-start="14474" selection-end="14474" vertical-scroll-proportion="-23.25">
+            <state line="262" column="50" selection-start="14351" selection-end="14351" vertical-scroll-proportion="-78.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ko.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/node/ko/ko.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="45" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.69863015">
               <folding />
             </state>
           </provider>
@@ -49,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="2" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.8767123">
+            <state line="63" column="40" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,8 +96,10 @@
         <option value="$PROJECT_DIR$/lib/css/ie.css" />
         <option value="$PROJECT_DIR$/lib/js/ie.js" />
         <option value="$PROJECT_DIR$/lib/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/lib/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Server/ko.js" />
+        <option value="$USER_HOME$/node/ko/ko.js" />
       </list>
     </option>
   </component>
@@ -153,43 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="Server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,7 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Raw HTML Source" />
+    <property name="last_opened_file_path" value="$USER_HOME$/node/ko/ko.js" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -380,9 +356,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="151" selection-start="14474" selection-end="14474" vertical-scroll-proportion="-23.25">
+        <state line="63" column="40" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -394,9 +370,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/app.js">
+    <entry file="file://$PROJECT_DIR$/Server/ko.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="2" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.8767123">
+        <state line="27" column="17" selection-start="0" selection-end="731" vertical-scroll-proportion="0.4520548">
+          <folding>
+            <element signature="e#0#105#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="262" column="50" selection-start="14351" selection-end="14351" vertical-scroll-proportion="-78.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/node/ko/ko.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="45" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.69863015">
           <folding />
         </state>
       </provider>

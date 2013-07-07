@@ -205,33 +205,33 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
             <div class="span4">
                 <!-- Begin Form Column 1 -->
                 <div class="control-group">
-                    <label class="control-label" for="first-name">First Name</label>
+                    <label class="control-label">First Name</label>
                     <div class="controls">
-                        <input type="text" id="first-name" placeholder="First Name" required>
+                        <input type="text" name="first-name" placeholder="First Name" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="last-name">Last Name</label>
+                    <label class="control-label">Last Name</label>
                     <div class="controls">
-                        <input type="text" id="last-name" placeholder="Last Name" required>
+                        <input type="text" name="last-name" placeholder="Last Name" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="cu-name">Credit Union Name</label>
+                    <label class="control-label">Credit Union Name</label>
                     <div class="controls">
-                        <input type="text" id="cu-name" rel="tooltip" title="PSCU employees can list PSCU in this field" placeholder="Credit Union Name" required>
+                        <input type="text" name="cu-name" rel="tooltip" title="PSCU employees can list PSCU in this field" placeholder="Credit Union Name" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="email">Email Address</label>
+                    <label class="control-label">Email Address</label>
                     <div class="controls">
-                        <input type="email" id="email" rel="tooltip" title="Please use your credit union or PSCU email address here so we can verify your eligibility" placeholder="user@company.com" required>
+                        <input type="email" name="email" rel="tooltip" title="Please use your credit union or PSCU email address here so we can verify your eligibility" placeholder="user@company.com" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="email-confirm">Confirm Email</label>
+                    <label class="control-label">Confirm Email</label>
                     <div class="controls">
-                        <input type="email" id="email-confirm" placeholder="user@company.com" required>
+                        <input type="email" name="email-confirm" placeholder="user@company.com" data-validation-matches-match="email" data-validation-matches-message="Email addresses do not match" required>
                     </div>
                 </div>
                 <!-- End Form Column 1 -->
@@ -240,27 +240,27 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
             <div class="span4 offset1">
                 <!-- Begin Form Column 2 -->
                 <div class="control-group">
-                    <label class="control-label" for="team-name">Team Name</label>
+                    <label class="control-label">Team Name</label>
                     <div class="controls">
-                        <input type="text" id="team-name" placeholder="Team Name" required>
+                        <input type="text" name="team-name" placeholder="Team Name" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="shirt-size">T-Shirt Size</label>
+                    <label class="control-label">T-Shirt Size</label>
                     <div class="controls">
-                        <input type="text" id="shirt-size" placeholder="Shirt Size" required>
+                        <input type="text" name="shirt-size" placeholder="Shirt Size" required>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="dietary-requirements">Dietary Requirements</label>
+                    <label class="control-label">Dietary Requirements</label>
                     <div class="controls">
-                        <textarea id="dietary-requirements" rows="5" ></textarea>
+                        <textarea name="dietary-requirements" rows="5" ></textarea>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="controls">
                         <label class="checkbox">
-                            <input type="checkbox" data-validation-matches-message="you must accept the terms and conditions" required> I have read and agree to the <a style="color: #bfd730; text-decoration: underline" href="javascript:">Terms And Conditions</a>
+                            <input type="checkbox" required> I have read and agree to the <a style="color: #bfd730; text-decoration: underline" href="javascript:">Terms And Conditions</a>
                             <p class="help-block"></p>
                         </label>
                         <button type="submit" class="btn btn-large square-btn" style="margin-top: 15px">Register Now</button>
