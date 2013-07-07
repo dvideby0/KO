@@ -59,6 +59,9 @@
         width: 100%;
         height: 400px;
     }
+
+    .notifications.center{top:48%;left:0;width:100%;}.notifications.center>div{margin:5px auto;width:60% !important;text-align:center;}
+
 }
 
 @media (max-width: 480px){
@@ -112,6 +115,7 @@
 
     .banner-row{
         background-color: #004253 !important;
+        text-align: center;
     }
 
     .strategy-row, .media-row{
@@ -140,6 +144,8 @@
         width: 100%;
         height: 250px;
     }
+
+    .notifications.center{top:48%;left:0;width:100%;}.notifications.center>div{margin:5px auto;width:80% !important;text-align:center;}
 }
 
 
@@ -147,8 +153,28 @@ body{
     font-family: verdana;
 }
 
+.green{
+    color: #bfd730;
+}
+
+.underlined-link{
+    color: #bfd730;
+    text-decoration: underline;
+}
+
+.p-title{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.margin-top-40{
+    margin-top: 40px;
+}
+
 .square-btn{
     border-radius: 0;
+    margin-top: 15px;
 }
 
 /* Nav Bar */
@@ -205,6 +231,7 @@ body{
 }
 
 .banner-row{
+    text-align: center;
     padding-bottom: 20px;
     background: url(../img/headerBckgrnd.png) no-repeat center center fixed;
     -webkit-background-size: cover; /*for webKit*/
@@ -250,16 +277,28 @@ body{
     background-color: #ffffff;
 }
 
-.about-title{
-    font-size: 1.7em;
-    font-weight: bold;
-    padding-bottom: 10px;
+.rules-title{
+    margin-top: 50px;
+}
+
+.rules-icons{
+    margin-top: 20px;
 }
 
 .about-icons{
     font-weight: bold;
     margin-top: 20px;
 }
+
+.prizes-list{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.prizes-icons{
+    height: 50px;
+}
+
 
 /* Strategy Section */
 
@@ -285,10 +324,8 @@ body{
     padding-bottom: 40px;
 }
 
-.spacer-image{
-    height: 100px;
-    text-align: center;
-    margin-top: 10px;
+.hearts-icon{
+    margin-top: 30px;
 }
 
 /* Registration Section */
@@ -326,6 +363,11 @@ body{
     padding-bottom: 40px;
 }
 
+#embedded-feed{
+    max-height: 600px;
+    overflow: auto;
+}
+
 /* Media Section */
 
 .media-row{
@@ -349,6 +391,10 @@ body{
     text-align: center;
 }
 
+.pscu-copy{
+    text-align: left;
+}
+
 /* Top Button */
 
 .top-button{
@@ -361,4 +407,51 @@ body{
     bottom: 30px;
     border-radius: 10px;
     z-index: 150;
+}
+
+/* Alerts */
+
+.notifications{position:fixed;}.notifications.top-right{right:10px;top:25px;}
+.notifications.top-left{left:10px;top:25px;}
+.notifications.bottom-left{left:10px;bottom:25px;}
+.notifications.bottom-right{right:10px;bottom:25px;}
+.notifications>div{position:relative;z-index:9999;margin:5px 0px;}
+.notifications.center{top:48%;left:0;width:100%;}.notifications.center>div{margin:5px auto;width:20%;text-align:center;}
+
+/**
+ * bangTidy2 Style - Ported from Growl Style
+ * Ported By Nijikokun @vizualover @nijikokun
+ * Original Author Daryl Ginn
+ * Based On http://dribbble.com/shots/527056-Growl-Theme-2
+ *
+ * To use, for style use: bangTidy
+ *
+ */
+.alert-bangTidy {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.80);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.88) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0.80)), color-stop(100%,rgba(0, 0, 0, 0.88)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.80) 0%,rgba(0, 0, 0, 0.88) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.80) 0%,rgba(0, 0, 0, 0.88) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.80) 0%,rgba(0, 0, 0, 0.88) 100%);
+    background: linear-gradient(top, rgba(0, 0, 0, 0.80) 0%,rgba(0, 0, 0, 0.88) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(0, 0, 0, 0.80)', endColorstr='rgba(0, 0, 0, 0.88)',GradientType=0 );
+    border: 1px solid #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), inset 0 0 0 1px rgba(255,255,255,0.1);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), inset 0 0 0 1px rgba(255,255,255,0.1);
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), inset 0 0 0 1px rgba(255,255,255,0.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.07), inset 0 0 0 1px rgba(255,255,255,0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: white;
+    -webkit-text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    -o-text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-font-smoothing: antialiased;
 }
