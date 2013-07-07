@@ -63,6 +63,13 @@ app.post('/', function(req, res){
     });
 });
 
+app.get('/participants', function(req, res){
+    participants.find({}, {_id:0, 'confirm-email':0}).toArray(function(err, array){
+        var Results = {"Records": array};
+        res.send(200, JSON.stringify(Results));
+    });
+});
+
 app.get('/teams-list', function(req, res){
 
     teams.find({}, {_id:0}).toArray(function(err, array){
