@@ -42,7 +42,7 @@
         padding: 0 !important;
     }
 
-    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea{
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select{
         width: 100%;
         height: 40px !important;
     }
@@ -127,7 +127,7 @@
         padding: 0 !important;
     }
 
-    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea{
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select{
         width: 100%;
         height: 40px !important;
     }
@@ -337,7 +337,7 @@ body{
     color: #ffffff;
 }
 
-.registration-row form input, .registration-row form button, .registration-row form textarea{
+.registration-row form input, .registration-row form button, .registration-row form textarea, select{
     border-radius: 0;
     border: none;
 }

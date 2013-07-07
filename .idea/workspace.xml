@@ -4,8 +4,8 @@
     <list default="true" id="4330a357-fabd-47c5-9d19-aec83887f8dc" name="Default" comment="" />
     <ignored path="KO.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373179976141" ignored="false" />
-    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373180968809" ignored="false" />
+    <file path="/index.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373219305345" ignored="false" />
+    <file path="/style.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373211629455" ignored="false" />
     <file path="/app.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373180685783" ignored="false" />
     <file path="/README.md" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372622749296" ignored="false" />
     <file path="/jquery.countdown.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372781433237" ignored="false" />
@@ -13,7 +13,7 @@
     <file path="/ie.css" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372787595409" ignored="false" />
     <file path="/ie.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1372787923427" ignored="false" />
     <file path="/ko.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373196434784" ignored="false" />
-    <file path="/admin.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373197430800" ignored="false" />
+    <file path="/admin.html" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373197849875" ignored="false" />
     <file path="/admin.js" changelist="4330a357-fabd-47c5-9d19-aec83887f8dc" time="1373196794951" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +34,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="34" selection-end="174" vertical-scroll-proportion="-0.9">
+            <state line="267" column="157" selection-start="14434" selection-end="14434" vertical-scroll-proportion="0.3928036">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ko.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ko.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/node/ko/ko.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="13" selection-start="0" selection-end="3629" vertical-scroll-proportion="0.26778242">
+            <state line="52" column="27" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="339" column="100" selection-start="6570" selection-end="6570" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="41" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="-11.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="111" column="33" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,16 +104,16 @@
         <option value="$PROJECT_DIR$/lib/css/ie.css" />
         <option value="$PROJECT_DIR$/lib/js/ie.js" />
         <option value="$PROJECT_DIR$/lib/js/notify.js" />
-        <option value="$PROJECT_DIR$/lib/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Server/ko.js" />
         <option value="$PROJECT_DIR$/lib/js/datatables.js" />
         <option value="$PROJECT_DIR$/lib/css/admin-style.css" />
         <option value="$USER_HOME$/node/ko/ko.js" />
-        <option value="$PROJECT_DIR$/lib/js/admin.js" />
-        <option value="$PROJECT_DIR$/admin.html" />
-        <option value="$PROJECT_DIR$/lib/js/app.js" />
         <option value="$PROJECT_DIR$/Server/ko2013/ko.js" />
+        <option value="$PROJECT_DIR$/lib/js/app.js" />
+        <option value="$PROJECT_DIR$/admin.html" />
+        <option value="$PROJECT_DIR$/lib/js/admin.js" />
+        <option value="$PROJECT_DIR$/lib/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -369,44 +405,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="7" selection-start="5172" selection-end="5172" vertical-scroll-proportion="0.8767123">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="95" selection-start="855" selection-end="855" vertical-scroll-proportion="0.42634562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="34" selection-end="174" vertical-scroll-proportion="-0.9">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/admin-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="1" selection-start="592" selection-end="592" vertical-scroll-proportion="0.19863014">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="102" selection-start="1363" selection-end="1363" vertical-scroll-proportion="1.3458755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="35" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.5684931">
           <folding />
         </state>
       </provider>
@@ -420,7 +421,42 @@
     </entry>
     <entry file="file://$USER_HOME$/node/ko/ko.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="13" selection-start="0" selection-end="3629" vertical-scroll-proportion="0.26778242">
+        <state line="52" column="27" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="41" selection-start="1484" selection-end="1484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="-11.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="33" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="100" selection-start="6570" selection-end="6570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="157" selection-start="14434" selection-end="14434" vertical-scroll-proportion="0.3928036">
           <folding />
         </state>
       </provider>
