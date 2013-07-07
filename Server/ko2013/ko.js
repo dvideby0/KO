@@ -35,9 +35,9 @@ app.all('*', function(req, res, next){
 app.post('/', function(req, res){
     participants.findOne({email: req.body.email}, function(err, post){
         if(!post){
-            teams.findOne({'team-name': req.body['team-name']}, function(err, post2){
+            teams.findOne({'team-name': req.body['team-name'].toLowerCase()}, function(err, post2){
                 if(!post2){
-                    teams.insert({'team-name': req.body['team-name'], 'members': [req.body['first-name'] + ' ' + req.body['last-name']]}, function(){
+                    teams.insert({'team-name': req.body['team-name'].toLowerCase(), 'members': [req.body['first-name'] + ' ' + req.body['last-name']]}, function(){
                         participants.insert(req.body, function(){
                             res.send(200, 'Registration Successful!');
                         });
@@ -48,7 +48,7 @@ app.post('/', function(req, res){
                         res.send(200, 'This Team Is Full. Please Register For a Different Team.');
                     }
                     else{
-                        teams.update({'team-name': req.body['team-name']}, { $push: {members: req.body['first-name'] + ' ' + req.body['last-name']}}, function(){
+                        teams.update({'team-name': req.body['team-name'].toLowerCase()}, { $push: {members: req.body['first-name'] + ' ' + req.body['last-name']}}, function(){
                             participants.insert(req.body, function(){
                                 res.send(200, 'Registration Successful!');
                             });
