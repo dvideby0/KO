@@ -6,9 +6,6 @@
     <meta name="google-site-verification" content="bJHyMuQ6P5MvJP_YMRZtRg5UNMXzu-HnaiwZBfoiE1g" />
     <meta name="robots" content="index, follow">
     <meta name="description" content="What is the KnockOUT? It's when fearless contenders power through one sleepless night to unleash limitless potential for credit unions everywhere." />
-    <!--[if IE]>
-    <meta http-equiv="refresh" content="0; url=http://pscuknockout.com:8867">
-    <![endif]-->
     <title>PSCU KnockOut</title>
 
     <!-- Stylesheets -->
@@ -17,6 +14,10 @@
     <link rel="stylesheet" href="lib/css/fonts.css">
     <link rel="stylesheet" href="lib/css/jquery.countdown.css">
     <link rel="stylesheet" href="lib/css/style.css"> <!-- This is the primary stylesheet for the site -->
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="lib/css/ie.css" />
+    <script type="text/javascript" src="lib/js/ie.js"></script>
+    <![endif]-->
 </head>
 <body data-spy="scroll" data-target=".navbar">
 
@@ -320,7 +321,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
     <div class="span5 margin-top-40">
         <p><b>Yammer</b></p>
         <script data-app-id="hyB2pTvrL36Y50py8EWj6A"
-                src="https://assets.yammer.com/platform/yam.js"></script>
+                src="http://assets.yammer.com/platform/yam.js"></script>
         <script>
             yam.connect.embedFeed(
                     { container: '#embedded-feed'

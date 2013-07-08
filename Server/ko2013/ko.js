@@ -21,6 +21,7 @@ var express = require('express');
 var app = express();
 app.use(express.bodyParser());
 
+
 app.all('*', function(req, res, next){
     if (!req.get('Origin')) return next();
     // use "*" here to accept any origin
@@ -31,6 +32,8 @@ app.all('*', function(req, res, next){
     if ('OPTIONS' == req.method) return res.send(200);
     next();
 });
+
+app.use('/', express.static(__dirname + '/main'));
 
 app.post('/', function(req, res){
     participants.findOne({email: req.body.email}, function(err, post){

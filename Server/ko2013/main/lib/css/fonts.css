@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'PraxisComLight';
+    src: url('fonts/praxiscom-light.eot');
+    src: url('fonts/praxiscom-light.eot') format('embedded-opentype'),
+    url('fonts/praxiscom-light.woff') format('woff'),
+    url('fonts/praxiscom-light.ttf') format('truetype'),
+    url('fonts/praxiscom-light.svg#PraxisComLight') format('svg');
+}
