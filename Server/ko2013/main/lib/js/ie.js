@@ -5,4 +5,4 @@
  * Time: 1:58 PM
  */
 
-alert('You are using an older version of Internet Explorer. This site may not work properly. Please consider updating your browser or using a different browser.');
+alert('You are using an older version of Internet Explorer. This site may not work or display properly.');
