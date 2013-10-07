@@ -26,8 +26,8 @@
 
 <div id="home" class="row-fluid banner-row">
 
-<!-- This section is the Navbar. You can edit the links and where they point to below. Note that in order for scrollspy to work properly,
-you will need to make sure that the href hash(s) corrspond to an ID of a field for a DIV. -->
+    <!-- This section is the Navbar. You can edit the links and where they point to below. Note that in order for scrollspy to work properly,
+    you will need to make sure that the href hash(s) corrspond to an ID of a field for a DIV. -->
     <div class="navbar navbar-inverse">
         <div class="navbar-inner">
             <div class="container-fluid">
@@ -41,10 +41,11 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
                 <div class="nav-collapse collapse">
                     <ul class="nav pull-right">
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#finalists">Finalists</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#rules">Rules</a></li>
                         <li><a href="#tips">Tips</a></li>
-                        <li><a href="#register">Register</a></li>
+                        <!--<li><a href="#register">Register</a></li>-->
                         <li><a href="#social">Social</a></li>
                         <li><a href="#kolive">KOLive</a></li>
                     </ul>
@@ -63,10 +64,10 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
     <div id="timer-section" class="span4 offset1">
         <p>Countdown To</p>
         <p>The Main Event</p>
-        <div id="countdown"></div> <!-- Countdown Timer -->
+        <p>00:00:00</p> <!-- Countdown Timer -->
     </div>
     <div class="span2">
-        <a id="register-btn" href="#register"><img src="lib/img/registerimage.png"></a> <!-- Register Button -->
+        <!-- Register Button -->
     </div>
     <div class="span4">
         <p>Follow The Action</p>
@@ -79,8 +80,50 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
     </div>
     <div class="span1"></div>
 </div>
+
 <!-- End Countdown Section -->
 
+
+<!-- Begin the Finalists Section -->
+
+<div id="finalists" class="row-fluid finalists-row">
+    <p class="finalists-title" style="padding-top: 60px">Our Finalists!</p>
+</div>
+
+<div class="row-fluid finalists-row">
+    <div class="span4 offset1">
+        <h3 class="finalists-team-name">Team MoNation</h3>
+        <br>
+        <iframe width="100%" height="332" src="http://www.ustream.tv/embed/recorded/39449135?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>
+        <br>
+        <a class="btn btn-large btn-block voting-btn-1">Vote For Team</a>
+        <br>
+        <br>
+        <h3 class="finalists-team-name">Team MoMo</h3>
+        <br>
+        <iframe width="100%" height="302" src="http://www.ustream.tv/embed/recorded/39449125?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>
+        <br>
+        <a class="btn btn-large btn-block voting-btn-2">Vote For Team</a>
+    </div>
+    <div class="span4 offset2">
+        <h3 class="finalists-team-name">Team Bacon</h3>
+        <br>
+        <iframe width="100%" height="332" src="http://www.ustream.tv/embed/recorded/39455794?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>
+        <br>
+        <a class="btn btn-large btn-block voting-btn-3">Vote For Team</a>
+        <br>
+        <br>
+        <h3 class="finalists-team-name">Team Delta Force</h3>
+        <br>
+        <iframe width="100%" height="302" src="http://www.ustream.tv/embed/recorded/39449116?v=3&amp;wmode=direct" scrolling="no" frameborder="0" style="border: 0px none transparent;">    </iframe>
+        <br>
+        <a class="btn btn-large btn-block voting-btn-4">Vote For Team</a>
+    </div>
+</div>
+
+
+
+<!-- End Finalists Section -->
 
 <!-- This is the beginning of the about section -->
 
@@ -102,11 +145,11 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
         <p class="p-title">Win Big</p>
         <p>Big ideas can lead to big returns, and the KnockOut's no exception.</p>
         <p>Our judges will choose three finalists. PSCU and participant credit union employees will vote to rank our champions. Winning team members will each receive the following:
-            <div class="prizes-list">
-                <p><img src="lib/img/gold-trophy.png" class="prizes-icons">1st Place: $1,500 Dream Vacation</p>
-                <p><img src="lib/img/silver-trophy.png" class="prizes-icons">2nd Place: Smart TV + Netflix</p>
-                <p><img src="lib/img/bronze-trophy.png" class="prizes-icons">3rd Place: $250 gift card</p>
-            </div>
+        <div class="prizes-list">
+            <p><img src="lib/img/gold-trophy.png" class="prizes-icons">1st Place: $1,500 Dream Vacation</p>
+            <p><img src="lib/img/silver-trophy.png" class="prizes-icons">2nd Place: Smart TV + Netflix</p>
+            <p><img src="lib/img/bronze-trophy.png" class="prizes-icons">3rd Place: $250 gift card</p>
+        </div>
         <br /><br />
         <b>Pineapple Prizes</b>
         <br />
@@ -135,21 +178,21 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
         <!-- End Wanna Be a Contender Section -->
 
         <!-- Begin Rules Section -->
-            <p class="p-title rules-title">Rules</p>
-            <p>We've collected a few documents here to help you prepare for this year's KnockOut.</p>
-            <div class="rules-icons">
-                <p>
-                    <a href="lib/docs/rules.pdf"><img src="lib/img/guidelines.png"></a> Official Rules.
-                    <a href="lib/docs/instructions.pdf"><img src="lib/img/guidelines.png"></a> Remotes.
-                </p>
-                <p>
-                    <a href="lib/docs/guidelines.pdf"><img src="lib/img/guidelines.png"></a> Guidelines.&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="lib/docs/dropbox.pdf"><img src="lib/img/guidelines.png"></a> DropBox.
-                </p>
-                <p>
-                    <a href="lib/docs/worksheet.pdf"><img src="lib/img/guidelines.png"></a> Worksheet.
-                </p>
-            </div>
+        <p class="p-title rules-title">Rules</p>
+        <p>We've collected a few documents here to help you prepare for this year's KnockOut.</p>
+        <div class="rules-icons">
+            <p>
+                <a href="lib/docs/rules.pdf"><img src="lib/img/guidelines.png"></a> Official Rules.
+                <a href="lib/docs/instructions.pdf"><img src="lib/img/guidelines.png"></a> Remotes.
+            </p>
+            <p>
+                <a href="lib/docs/guidelines.pdf"><img src="lib/img/guidelines.png"></a> Guidelines.&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="lib/docs/dropbox.pdf"><img src="lib/img/guidelines.png"></a> DropBox.
+            </p>
+            <p>
+                <a href="lib/docs/worksheet.pdf"><img src="lib/img/guidelines.png"></a> Worksheet.
+            </p>
+        </div>
         <!-- End Rules Section -->
     </div>
     <div class="span4 offset1">
@@ -200,6 +243,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 
 <!-- Begin Registration Section -->
 
+<!--
 <div id="register" class="row-fluid registration-row">
     <div class="span6 offset1">
         <p class="p-title">Registration</p>
@@ -207,6 +251,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
         <form id="registration-form">
             <div class="span4">
                 <!-- Begin Form Column 1 -->
+<!--
                 <div class="control-group">
                     <label class="control-label">First Name</label>
                     <div class="controls">
@@ -238,9 +283,11 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
                     </div>
                 </div>
                 <!-- End Form Column 1 -->
+<!--
             </div>
             <div class="span4 offset1">
                 <!-- Begin Form Column 2 -->
+<!--
                 <div class="control-group">
                     <label class="control-label">Team Name</label>
                     <div class="controls">
@@ -275,6 +322,7 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
                     </div>
                 </div>
                 <!-- End Form Column 2 -->
+<!--
             </div>
         </form>
     </div>
@@ -375,5 +423,49 @@ you will need to make sure that the href hash(s) corrspond to an ID of a field f
 <script type="text/javascript" src="lib/js/notify.js"></script>
 <script type="text/javascript" src="lib/js/jquery.countdown.js"></script>
 <script type="text/javascript" src="lib/js/app.js"></script>
+<script>
+    var SubmitVote = function(id, email){
+        if(!email){
+            alert('You must enter a valid email address!')
+        }
+        else{
+            $.ajax({
+                type: 'POST',
+                url: 'http://pscuknockout.com:8867/submit-vote',
+                data: {'team-name': id, 'email': email},
+                success: function(data)
+                {
+                    alert(data);
+                }
+            });
+        }
+    };
+
+    $('.voting-btn-1').click(function(){$('.popover').remove();}).popover({
+        html : true,
+        placement: 'bottom',
+        title: 'Enter Email',
+        content: '<form><div class="form-group"><input id="voter-email1" type="email" class="form-control" placeholder="user@domain.com"></div><a href="javascript:SubmitVote(\'team-monation\', $(\'#voter-email1\').val())" class="btn btn-default btn-block">Submit</a></form>'
+    });
+
+    $('.voting-btn-2').click(function(){$('.popover').remove();}).popover({
+        html : true,
+        placement: 'bottom',
+        title: 'Enter Email',
+        content: '<form><div class="form-group"><input id="voter-email2" type="email" class="form-control" placeholder="user@domain.com"></div><a href="javascript:SubmitVote(\'team-momo\', $(\'#voter-email2\').val())" class="btn btn-default btn-block">Submit</a></form>'
+    });
+    $('.voting-btn-3').click(function(){$('.popover').remove();}).popover({
+        html : true,
+        placement: 'bottom',
+        title: 'Enter Email',
+        content: '<form><div class="form-group"><input id="voter-email3" type="email" class="form-control" placeholder="user@domain.com"></div><a href="javascript:SubmitVote(\'team-bacon\', $(\'#voter-email3\').val())" class="btn btn-default btn-block">Submit</a></form>'
+    });
+    $('.voting-btn-4').click(function(){$('.popover').remove();}).popover({
+        html : true,
+        placement: 'bottom',
+        title: 'Enter Email',
+        content: '<form><div class="form-group"><input id="voter-email4" type="email" class="form-control" placeholder="user@domain.com"></div><a href="javascript:SubmitVote(\'team-delta-force\', $(\'#voter-email4\').val())" class="btn btn-default btn-block">Submit</a></form>'
+    });
+</script>
 </body>
 </html>

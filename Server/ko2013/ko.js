@@ -9,10 +9,12 @@ var mongodb = require('mongodb');
 var server = new mongodb.Server("127.0.0.1", 27017, {});
 var participants;
 var teams;
+var votes;
 new mongodb.Db('ko2013', server, {w:1}).open(function (error, client) {
     if (error) throw error;
     participants = new mongodb.Collection(client, 'participants');
     teams = new mongodb.Collection(client, 'teams');
+    votes = new mongodb.Collection(client, 'votes');
 });
 
 var json2csv = require('json2csv');
@@ -66,6 +68,19 @@ app.post('/', function(req, res){
     });
 });
 
+app.post('/submit-vote', function(req, res){
+    votes.findOne({'voter-email': req.body.email.toLowerCase()}, function(err, post){
+        if(!post){
+            votes.insert({'team-name': req.body['team-name'].toLowerCase(), 'voter-email': req.body.email.toLowerCase()}, function(){
+                res.send(200, 'Thank you for voting!');
+            });
+        }
+        else{
+            res.send(200, 'You have already voted!');
+        }
+    })
+});
+
 app.get('/participants', function(req, res){
     participants.find({}, {_id:0, 'confirm-email':0}).toArray(function(err, array){
         var Results = {"Records": array};
@@ -93,7 +108,7 @@ app.get('/teams-list', function(req, res){
 
 app.get('/participants-list', function(req, res){
     participants.find({}, {_id:0}).toArray(function(err, array){
-        json2csv({data: array, fields: ['first-name', 'last-name', 'cu-name', 'email', 'shirt-size', 'dietary-requirements']}, function(err, csv) {
+        json2csv({data: array, fields: ['first-name', 'last-name', 'team-name', 'cu-name', 'email', 'shirt-size', 'dietary-requirements']}, function(err, csv) {
             if(err){
                 console.log(err);
             }
@@ -104,5 +119,12 @@ app.get('/participants-list', function(req, res){
         });
     });
 });
+
+app.get('/stats', function(req, res){
+    votes.aggregate({$group:{_id:"$team-name", instances: {"$sum":1}}},{$sort: {instances:-1}}, {$limit: 4}, function(err, record){
+        res.send(JSON.stringify({"stats": record}));
+    });
+});
+
 
 app.listen(8867);

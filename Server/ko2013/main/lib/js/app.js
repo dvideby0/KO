@@ -71,7 +71,7 @@ $("form :input").jqBootstrapValidation({
                 $('.center').notify({
                     message: { text: data },
                     type: 'bangTidy',
-                    closable: false
+                    closable: true
                 }).show();
             }
         });

@@ -153,6 +153,14 @@ body{
     font-family: verdana;
 }
 
+.btn{
+    border-radius: 0;
+}
+
+.popover-title{
+    color: #002a37;
+}
+
 .green{
     color: #bfd730;
 }
@@ -266,6 +274,27 @@ body{
 
 .social-icon{
     height: 60px;
+}
+
+
+/* Finalists Section */
+
+
+.finalists-row{
+    text-align: center;
+    padding-bottom: 60px;
+    background-color: #002a37;
+    color: #ffffff;
+}
+
+.finalists-title{
+    font-size: 3em;
+    font-weight: bold;
+    color: #559cb5;
+}
+
+.finalists-team-name{
+    color: #ffffff;
 }
 
 /* About Section */
