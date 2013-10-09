@@ -120,6 +120,21 @@ app.get('/participants-list', function(req, res){
     });
 });
 
+app.get('/voter-list', function(req, res){
+
+    votes.find({}, {_id:0}).toArray(function(err, array){
+        json2csv({data: array, fields: ['team-name', 'voter-email']}, function(err, csv) {
+            if(err){
+                console.log(err);
+            }
+            else{
+                res.attachment('voter-list.csv');
+                res.end(csv, 'UTF-8');
+            }
+        });
+    });
+});
+
 app.get('/stats', function(req, res){
     votes.aggregate({$group:{_id:"$team-name", instances: {"$sum":1}}},{$sort: {instances:-1}}, {$limit: 4}, function(err, record){
         res.send(JSON.stringify({"stats": record}));

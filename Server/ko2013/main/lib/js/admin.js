@@ -132,3 +132,53 @@ $.ajax({
             }
         });
     });
+
+function ShowStats(){
+    $.ajax({
+        type: "GET",
+        url: "http://pscuknockout.com:8867/stats"
+    }).done(function(data) {
+            data = JSON.parse(data);
+            var UserGraph = new Highcharts.Chart(
+                {
+                    colors: ['#5bb75b'],
+                    chart: {
+                        renderTo: 'team-stats',
+                        type: 'column',
+                        marginBottom: 70,
+                        marginRight: 70
+                    },
+                    title: {
+                        text: 'Check In Leader Board'
+                    },
+                    xAxis: {
+                        categories: [data.stats[0]._id, data.stats[1]._id, data.stats[2]._id, data.stats[3]._id]
+                    },
+                    yAxis: {
+
+                        tickPositioner: function() {
+                            return [40, 80, 120, 160, 200, 240, 280, 320];
+                        },
+
+                        title: {
+                            text: 'Total Votes'
+                        }
+                    },
+                    tooltip: {
+
+                    },
+                    series: [{
+                        name: 'Leader Board',
+                        data: [data.stats[0].instances, data.stats[1].instances, data.stats[2].instances, data.stats[3].instances]
+                    }]
+
+                }
+            );
+        }
+    );
+
+}
+
+$(document).ready(function(){
+    ShowStats();
+});
